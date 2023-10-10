@@ -1,0 +1,21 @@
+
+.customDiv{
+  margin:10px;
+  border: 2px solid gray;
+  width: 320px;
+  height: 200px;
+  padding: 5px;
+  display: inline-block;
+  vertical-align: top;
+  color: red;
+
+}
+select{
+  font-size: larger;
+  width: 200px;
+
+}
+button{
+  font-size: larger;
+  margin-left:5px;
+}
