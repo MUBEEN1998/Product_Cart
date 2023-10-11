@@ -16,7 +16,7 @@ const Cart = () => {
     <div style={{display:"flex" ,flexWrap:"wrap",justifyContent:"space-between" }}>
         {items.map((item,index)=>{
             return (
-                <div style={{ background: "white", width: "200px",fontSize:"14px",
+                <div style={{ background: "white", width: "200px",fontSize:"15px",
         boxShadow:"0px 0px 0px black",marginTop:"10px",
          height: "auto",padding:"10px", margin: "10px" }} key={index}>
           <img src={item.image} style={{ width: "100%", height: "150px" }} alt={`Product ${index}`} />
