@@ -3,8 +3,8 @@ import Cartslice from "./Cartslice";
 
 const store =configureStore({
     reducer:{
-        ca
+        cart:Cartslice
     }
 })
-
+//this is a cartslice 
 export default store;
